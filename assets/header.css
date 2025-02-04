@@ -1,0 +1,9 @@
+.header {
+  background: var(--primary-color-op-70);
+  backdrop-filter: blur(56.5px);
+}
+
+.header-content {
+  display: flex;
+  padding: 20px 0;
+}
