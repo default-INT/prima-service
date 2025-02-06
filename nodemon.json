@@ -1,0 +1,5 @@
+{
+  "watch": ["templates", "public"],
+  "ext": "hbs css js json",
+  "exec": "node build.js"
+}

@@ -1,0 +1,24 @@
+.direction-section {
+  scroll-margin-top: var(--header-height);
+  background: var(--primary-light-color);
+}
+
+.direction-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.direction-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.direction-legend-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

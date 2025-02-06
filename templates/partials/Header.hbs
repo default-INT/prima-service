@@ -1,0 +1,29 @@
+<header class="header">
+  <div class="header-content page-container">
+    <div class="header-logo-container">
+      <img class="logo injectable-svg" src="./icons/logo.svg" alt="SVG Icon" />
+      {{>
+        ContactLink
+          modifiers="hide-from-768"
+          valueClassName="regular"
+          value="Московская область,<br> г.Жуковский, ул Спасателей, д. 2а"
+          source="./icons/map-pin.svg"
+          to="/some"
+          small=true
+      }}
+    </div>
+    {{>
+      ContactLink
+        modifiers="hide-from-768"
+        valueClassName="underline"
+        value="info@primaservice.ru"
+        source="./icons/mail.svg"
+        to="mailto:info@primaservice.ru"
+        small=true
+    }}
+    <div class="header-contacts-mobile show-from-768">
+      <a href="https://yandex.by/maps/-/CHeHQLyC" target="_blank" class="link link-location">Московская область, г.Жуковский, ул Спасателей, д. 2а</a>
+      <a href="mailto:info@primaservice.ru" class="link">info@primaservice.ru</a>
+    </div>
+  </div>
+</header>

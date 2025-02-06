@@ -1,0 +1,17 @@
+<section class="car-park-section">
+  <div
+    style="background-image: url('./images/our-cars.jpeg'); opacity: 0.3; min-height: 500px; background-position: center center"
+    class="background-image"
+  ></div>
+  <div class="page-container car-park-content">
+    <h2 class="secondary-title text-center">Наш автопарк</h2>
+    <div class="car-park-article-list">
+      {{#each carPark.articles}}
+        {{> ArticleCard icon=this.icon title=this.title description=this.description }}
+      {{/each}}
+    </div>
+    <div class="car-park-bottom">
+      {{> Button title="Отправить запрос" to="mailto:info@primaservice.ru" }}
+    </div>
+  </div>
+</section>

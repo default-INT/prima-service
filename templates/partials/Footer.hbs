@@ -1,0 +1,41 @@
+<footer>
+  <div class="page-container footer-content">
+    <div class="footer-contacts">
+      <div class="footer-contacts-info">
+        <h2 class="secondary-title">Контакты</h2>
+        {{>
+        ContactLink
+          title="Телефон"
+          value="+7(495)198-07-90"
+          source="./icons/phone.svg"
+          to="tel:+74951980790"
+        }}
+        {{>
+        ContactLink
+          title="Электронная почта"
+          value="info@primaservice.ru"
+          source="./icons/mail.svg"
+          to="mailto:info@primaservice.ru"
+        }}
+        {{>
+        ContactLink
+          title="Офис"
+          value="Московская обл., г.Жуковский, ул Спасателей, д. 2а"
+          source="./icons/map-pin.svg"
+          to="https://yandex.by/maps/-/CHeHQLyC"
+          target="_blank"
+        }}
+      </div>
+      <img src="./icons/logo.svg" class="footer-logo" alt="logo">
+    </div>
+    <div id="yandexMap" class="map-container"></div>
+    <img src="./icons/logo.svg" class="footer-logo-mobile" alt="logo">
+  </div>
+  <div class="footer-privacy-policy">
+    <div class="footer-privacy-policy-title">Все права защищены Ⓒ ПримаСервис 2025</div>
+    <div class="footer-privacy-policy-content">
+      <a href="/some" class="link">Условия использования</a>
+      <a href="/some" class="link">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>

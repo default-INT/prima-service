@@ -1,0 +1,23 @@
+<div class="contact-link {{ modifiers }}">
+  <div class="contact-link-icon-container {{#if small}}small{{/if}}">
+    <img src="{{ source }}" class="injectable-svg" alt="">
+  </div>
+  <div class="contact-link-info">
+    {{#if title}}
+      <span class="contact-link-info-title">{{ title }}</span>
+    {{/if}}
+    {{#if to}}
+      <a
+        class="contact-link-info-value {{ valueClassName }}"
+        href="{{ to }}"
+        {{#if target}}target="{{target}}" {{/if}}
+      >
+        {{{ value }}}
+      </a>
+    {{else}}
+      <span class="contact-link-info-value {{ valueClassName }}">
+        {{{ value }}}
+      </span>
+    {{/if}}
+  </div>
+</div>

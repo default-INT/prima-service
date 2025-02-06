@@ -1,0 +1,20 @@
+<div class="legend">
+  <div class="legend-title">
+    <div class="legend-title-icon {{#if reversed}}reversed{{/if}}">
+      <img src="./icons/from.svg" class="injectable-svg {{#if reversed}}reversed{{/if}}" alt="from">
+    </div>
+    <span>{{ title }}</span>
+  </div>
+  <div class="legend-list" id="{{ collapsibleId }}">
+    {{#each list}}
+        <div class="legend-list-item">
+          <img src="{{ this.flagSrc }}" class="injectable-svg" alt="{{ this.code }}">
+          <span class="legend-list-item-title">{{ this.title }}</span>
+        </div>
+    {{/each}}
+  </div>
+  <button class="legend-collapse-button text-button" onclick="toggleCollapse(this, '{{ collapsibleId }}')">
+    <span class="text-button-content">Показать все</span>
+    <img src="./icons/arrow-down.svg" class="injectable-svg" alt="{{ this.code }}">
+  </button>
+</div>
