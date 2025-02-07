@@ -68,6 +68,10 @@
   background-attachment: fixed;
   opacity: 52%;
   z-index: -1;
+
+  @media (max-width: 479px) {
+    background-size: auto;
+  }
 }
 
 .stat-counter {
