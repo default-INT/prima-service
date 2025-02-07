@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  background: var(--primary-color-op-70);
+  background: var(--primary-color-op-90);
   backdrop-filter: blur(56.5px);
   width: 100%;
   z-index: 11;
