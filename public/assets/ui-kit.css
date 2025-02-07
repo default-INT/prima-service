@@ -3,10 +3,6 @@
   max-width: 1240px;
   margin: 0 auto;
   padding: 60px 20px;
-
-  @media (max-width: 768px) {
-
-  }
 }
 
 .link {
@@ -72,10 +68,6 @@
   background-attachment: fixed;
   opacity: 52%;
   z-index: -1;
-
-  @media (max-width: 424px) {
-    background-size: auto;
-  }
 }
 
 .stat-counter {
@@ -87,17 +79,17 @@
   backdrop-filter: blur(10px);
   min-width: 246px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 999px) {
     padding: 24px 16px;
     min-width: 230px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     padding: 16px;
     min-width: 126px;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 479px) {
     padding: 16px;
     min-width: unset;
     flex: 1;
@@ -105,7 +97,7 @@
 }
 
 .stat-counter:last-child {
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     min-width: 264px;
   }
 }
@@ -114,7 +106,7 @@
   font-size: 40px;
   font-weight: 500;
 
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     font-size: 32px;
   }
 }
@@ -122,7 +114,7 @@
 .stat-counter-title {
   color: var(--label-text-color);
 
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     font-size: 14px;
   }
 }
@@ -183,7 +175,7 @@
 .swiper-wrapper {
   min-width: 470px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 999px) {
     min-width: unset;
     width: 100%;
   }
@@ -194,7 +186,7 @@
   user-select: none;
   overflow: hidden;
 
-  @media (max-width: 768px) {
+  @media (max-width: 999px) {
     max-width: unset;
     width: 100%;
   }
@@ -271,13 +263,13 @@
 }
 
 .hide-from-768 {
-  @media (max-width: 768px) {
+  @media (max-width: 999px) {
     display: none;
   }
 }
 
 .hide-from-360 {
-  @media (max-width: 360px) {
+  @media (max-width: 479px) {
     display: none;
   }
 }
@@ -285,7 +277,7 @@
 .show-from-768 {
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 999px) {
     display: block;
   }
 }

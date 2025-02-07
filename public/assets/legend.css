@@ -35,11 +35,11 @@
   transition: max-height 0.6s ease;
   overflow: hidden;
 
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     max-height: 80px;
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 479px) {
     max-height: 126px;
   }
 }
@@ -47,7 +47,7 @@
 .legend-collapse-button {
   display: none;
 
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     display: flex;
   }
 }
@@ -58,14 +58,14 @@
 
 
 .legend-collapse-button.collapsed svg {
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     transform: rotate(180deg);
   }
 }
 
 
 .legend-list.collapsed {
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     max-height: 100vh;
   }
 }

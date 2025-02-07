@@ -17,14 +17,6 @@
   --screen-lg: 1439px;
 
   --header-height: 80px;
-
-  @media (max-width: 999px) {
-    --header-height: 80px;
-  }
-
-  @media (max-width: 767px) {
-    --header-height: 80px;
-  }
 }
 
 html {

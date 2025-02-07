@@ -21,7 +21,7 @@
 .header-contacts-mobile {
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 999px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +37,7 @@
   text-decoration: none;
   text-align: right;
 
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     display: none;
   }
 }

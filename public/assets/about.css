@@ -4,11 +4,11 @@
   align-items: center;
   gap: 46px;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1919px) {
     gap: 20px;
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 999px) {
     flex-direction: column;
     gap: 24px;
   }
