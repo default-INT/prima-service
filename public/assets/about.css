@@ -1,6 +1,7 @@
 .about-section-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 46px;
 
   @media (max-width: 1000px) {

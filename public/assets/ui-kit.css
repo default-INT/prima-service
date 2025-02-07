@@ -172,30 +172,21 @@
 
 .image-swiper-container {
   position: relative;
+}
+
+.image-swiper {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
   min-width: 470px;
 
   @media (max-width: 768px) {
     min-width: unset;
     width: 100%;
-    min-height: 500px;
   }
-
-  @media (max-width: 480px) {
-    min-width: unset;
-    width: 100%;
-    min-height: 300px;
-  }
-
-  @media (max-width: 360px) {
-    min-width: unset;
-    width: 100%;
-    min-height: 220px;
-  }
-}
-
-.image-swiper {
-  overflow: hidden;
-  border-radius: 4px;
 }
 
 .image-swiper .swiper-slide {
