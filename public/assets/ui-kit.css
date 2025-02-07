@@ -135,6 +135,7 @@
 }
 
 .app-button:hover {
+  opacity: 1;
   background: var(--accent-color-hover);
 }
 

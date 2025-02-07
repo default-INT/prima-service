@@ -21,8 +21,8 @@
 }
 
 .switch > button.active {
-  font-weight: 600;
+  font-weight: 500;
   color: var(--primary-text-color);
-  background: var(--accent-color-hover);
+  background: var(--accent-color);
   box-shadow: 0 0 6px 0 #00000005;
 }
