@@ -5,6 +5,20 @@
   position: relative;
 }
 
+.main-landscape-image {
+  min-height: 610px;
+  bottom: 0;
+
+  @media (max-width: 479px) {
+    min-height: unset;
+    height: 100%;
+    bottom: 0;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+  }
+}
+
 .main-title-container {
   display: flex;
   flex-direction: column;
