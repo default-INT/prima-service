@@ -5,6 +5,17 @@
   padding: 60px 20px;
 }
 
+.accent-link {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent-color)
+}
+
+.accent-link:hover {
+  opacity: 1;
+  color: var(--accent-color-hover)
+}
+
 .link {
   font-size: 14px;
   color: var(--label-text-color);

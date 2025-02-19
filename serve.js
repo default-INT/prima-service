@@ -4,7 +4,7 @@ const livereload = require('livereload');
 const connectLivereload = require('connect-livereload');
 
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 const liveReloadServer = livereload.createServer();
 liveReloadServer.watch(path.join(__dirname, 'dist'));
