@@ -23,9 +23,6 @@ const initMap = async () => {
   map.addChild(new YMapDefaultSchemeLayer());
   map.addChild(new YMapDefaultFeaturesLayer());
 
-  const content = document.createElement('section');
-  content.innerHTML = '<p>Draggable paragraph</p>';
-
   const marker = new YMapDefaultMarker(
     {
       coordinates: [38.112122, 55.603842],
