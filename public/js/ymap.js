@@ -2,12 +2,12 @@ const initMap = async () => {
   await ymaps3.ready;
 
   ymaps3.import.registerCdn(
-    'https://cdn.jsdelivr.net/npm/{package}',
+    './libs/{package}',
     '@yandex/ymaps3-default-ui-theme@latest'
   );
 
-  const {YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer, YMapMarker } = ymaps3;
-  const {YMapDefaultMarker} = await ymaps3.import('@yandex/ymaps3-default-ui-theme');
+  const { YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer } = ymaps3;
+  const { YMapDefaultMarker } = await ymaps3.import('@yandex/ymaps3-default-ui-theme');
 
   const map = new YMap(
     document.getElementById('yandexMap'),

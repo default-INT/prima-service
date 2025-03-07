@@ -1,8 +1,8 @@
 {
   "aboutSwiper": [
     "./images/about/office.jpeg",
-    "./images/about/office.jpeg",
-    "./images/about/office.jpeg"
+    "./images/about/car-swiper.png",
+    "./images/about/ad-swiper.png"
   ],
   "import": {
     "from": {

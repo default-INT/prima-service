@@ -12,6 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@iconfu/svg-inject": "^1.2.3",
+    "@yandex/ymaps3-default-ui-theme": "latest",
+    "swiper": "^11.2.5"
+  },
+  "devDependencies": {
     "connect-livereload": "^0.6.1",
     "express": "^4.21.2",
     "fs-extra": "^11.3.0",
