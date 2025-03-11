@@ -9,102 +9,102 @@
       "title": "Откуда",
       "list": [
         {
-          "flagSrc": "./icons/flags/de.svg",
+          "flagSrc": "./assets/icons/flags/de.svg",
           "title": "Германия",
           "code": "de"
         },
         {
-          "flagSrc": "./icons/flags/at.svg",
+          "flagSrc": "./assets/icons/flags/at.svg",
           "title": "Австрия",
           "code": "at"
         },
         {
-          "flagSrc": "./icons/flags/ch.svg",
+          "flagSrc": "./assets/icons/flags/ch.svg",
           "title": "Швейцария",
           "code": "ch"
         },
         {
-          "flagSrc": "./icons/flags/lu.svg",
+          "flagSrc": "./assets/icons/flags/lu.svg",
           "title": "Люксембург",
           "code": "lu"
         },
         {
-          "flagSrc": "./icons/flags/be.svg",
+          "flagSrc": "./assets/icons/flags/be.svg",
           "title": "Бельгия",
           "code": "be"
         },
         {
-          "flagSrc": "./icons/flags/nl.svg",
+          "flagSrc": "./assets/icons/flags/nl.svg",
           "title": "Нидерланды",
           "code": "nl"
         },
         {
-          "flagSrc": "./icons/flags/fr.svg",
+          "flagSrc": "./assets/icons/flags/fr.svg",
           "title": "Франция",
           "code": "fr"
         },
         {
-          "flagSrc": "./icons/flags/dk.svg",
+          "flagSrc": "./assets/icons/flags/dk.svg",
           "title": "Дания",
           "code": "dk"
         },
         {
-          "flagSrc": "./icons/flags/es.svg",
+          "flagSrc": "./assets/icons/flags/es.svg",
           "title": "Испания",
           "code": "es"
         },
         {
-          "flagSrc": "./icons/flags/cz.svg",
+          "flagSrc": "./assets/icons/flags/cz.svg",
           "title": "Чехия",
           "code": "cz"
         },
         {
-          "flagSrc": "./icons/flags/pl.svg",
+          "flagSrc": "./assets/icons/flags/pl.svg",
           "title": "Польша",
           "code": "pl"
         },
         {
-          "flagSrc": "./icons/flags/lv.svg",
+          "flagSrc": "./assets/icons/flags/lv.svg",
           "title": "Латвия",
           "code": "lv"
         },
         {
-          "flagSrc": "./icons/flags/lt.svg",
+          "flagSrc": "./assets/icons/flags/lt.svg",
           "title": "Литва",
           "code": "lt"
         },
         {
-          "flagSrc": "./icons/flags/ee.svg",
+          "flagSrc": "./assets/icons/flags/ee.svg",
           "title": "Эстония",
           "code": "ee"
         },
         {
-          "flagSrc": "./icons/flags/rs.svg",
+          "flagSrc": "./assets/icons/flags/rs.svg",
           "title": "Сербия",
           "code": "rs"
         },
         {
-          "flagSrc": "./icons/flags/sk.svg",
+          "flagSrc": "./assets/icons/flags/sk.svg",
           "title": "Словакия",
           "code": "sk"
         },
         {
-          "flagSrc": "./icons/flags/si.svg",
+          "flagSrc": "./assets/icons/flags/si.svg",
           "title": "Словения",
           "code": "si"
         },
         {
-          "flagSrc": "./icons/flags/tr.svg",
+          "flagSrc": "./assets/icons/flags/tr.svg",
           "title": "Турция",
           "code": "tr"
         },
         {
-          "flagSrc": "./icons/flags/cn.svg",
+          "flagSrc": "./assets/icons/flags/cn.svg",
           "title": "Китай",
           "code": "cn"
         },
         {
-          "flagSrc": "./icons/flags/fi.svg",
+          "flagSrc": "./assets/icons/flags/fi.svg",
           "title": "Финляндия",
           "code": "fi"
         }
@@ -114,37 +114,37 @@
       "title": "Куда",
       "list": [
         {
-          "flagSrc": "./icons/flags/by.svg",
+          "flagSrc": "./assets/icons/flags/by.svg",
           "title": "Республика Беларусь",
           "code": "by"
         },
         {
-          "flagSrc": "./icons/flags/ru.svg",
+          "flagSrc": "./assets/icons/flags/ru.svg",
           "title": "Российская Федерация",
           "code": "ru"
         },
         {
-          "flagSrc": "./icons/flags/kz.svg",
+          "flagSrc": "./assets/icons/flags/kz.svg",
           "title": "Казахстан",
           "code": "kz"
         },
         {
-          "flagSrc": "./icons/flags/uz.svg",
+          "flagSrc": "./assets/icons/flags/uz.svg",
           "title": "Узбекистан",
           "code": "uz"
         },
         {
-          "flagSrc": "./icons/flags/az.svg",
+          "flagSrc": "./assets/icons/flags/az.svg",
           "title": "Азербайджан",
           "code": "az"
         },
         {
-          "flagSrc": "./icons/flags/ge.svg",
+          "flagSrc": "./assets/icons/flags/ge.svg",
           "title": "Грузия",
           "code": "ge"
         },
         {
-          "flagSrc": "./icons/flags/am.svg",
+          "flagSrc": "./assets/icons/flags/am.svg",
           "title": "Армения",
           "code": "am"
         }
@@ -156,37 +156,37 @@
       "title": "Откуда",
       "list": [
         {
-          "flagSrc": "./icons/flags/by.svg",
+          "flagSrc": "./assets/icons/flags/by.svg",
           "title": "Республика Беларусь",
           "code": "by"
         },
         {
-          "flagSrc": "./icons/flags/ru.svg",
+          "flagSrc": "./assets/icons/flags/ru.svg",
           "title": "Российская Федерация",
           "code": "ru"
         },
         {
-          "flagSrc": "./icons/flags/kz.svg",
+          "flagSrc": "./assets/icons/flags/kz.svg",
           "title": "Казахстан",
           "code": "kz"
         },
         {
-          "flagSrc": "./icons/flags/uz.svg",
+          "flagSrc": "./assets/icons/flags/uz.svg",
           "title": "Узбекистан",
           "code": "uz"
         },
         {
-          "flagSrc": "./icons/flags/az.svg",
+          "flagSrc": "./assets/icons/flags/az.svg",
           "title": "Азербайджан",
           "code": "az"
         },
         {
-          "flagSrc": "./icons/flags/ge.svg",
+          "flagSrc": "./assets/icons/flags/ge.svg",
           "title": "Грузия",
           "code": "ge"
         },
         {
-          "flagSrc": "./icons/flags/am.svg",
+          "flagSrc": "./assets/icons/flags/am.svg",
           "title": "Армения",
           "code": "am"
         }
@@ -196,47 +196,47 @@
       "title": "Куда",
       "list": [
         {
-          "flagSrc": "./icons/flags/de.svg",
+          "flagSrc": "./assets/icons/flags/de.svg",
           "title": "Германия",
           "code": "de"
         },
         {
-          "flagSrc": "./icons/flags/lu.svg",
+          "flagSrc": "./assets/icons/flags/lu.svg",
           "title": "Люксембург",
           "code": "lu"
         },
         {
-          "flagSrc": "./icons/flags/be.svg",
+          "flagSrc": "./assets/icons/flags/be.svg",
           "title": "Бельгия",
           "code": "be"
         },
         {
-          "flagSrc": "./icons/flags/nl.svg",
+          "flagSrc": "./assets/icons/flags/nl.svg",
           "title": "Нидерланды",
           "code": "nl"
         },
         {
-          "flagSrc": "./icons/flags/fr.svg",
+          "flagSrc": "./assets/icons/flags/fr.svg",
           "title": "Франция",
           "code": "fr"
         },
         {
-          "flagSrc": "./icons/flags/dk.svg",
+          "flagSrc": "./assets/icons/flags/dk.svg",
           "title": "Дания",
           "code": "dk"
         },
         {
-          "flagSrc": "./icons/flags/cz.svg",
+          "flagSrc": "./assets/icons/flags/cz.svg",
           "title": "Чехия",
           "code": "cz"
         },
         {
-          "flagSrc": "./icons/flags/pl.svg",
+          "flagSrc": "./assets/icons/flags/pl.svg",
           "title": "Польша",
           "code": "pl"
         },
         {
-          "flagSrc": "./icons/flags/it.svg",
+          "flagSrc": "./assets/icons/flags/it.svg",
           "title": "Италия",
           "code": "it"
         }
@@ -246,17 +246,17 @@
   "carPark": {
     "articles": [
       {
-        "icon": "./icons/articles/power.svg",
+        "icon": "./assets/icons/articles/power.svg",
         "title": "Мощности для любых задач",
         "description": "В нашем распоряжении 162 сцепки объемом 90 м³, позволяющие эффективно перевозить грузы различных размеров и объемов."
       },
       {
-        "icon": "./icons/articles/world-brand.svg",
+        "icon": "./assets/icons/articles/world-brand.svg",
         "title": "Техника мировых брендов",
         "description": "Мы используем надежные автомобили ведущих производителей: DongFeng, Volvo и Mercedes-Benz, что гарантирует высокое качество и стабильность."
       },
       {
-        "icon": "./icons/articles/ideal-service.svg",
+        "icon": "./assets/icons/articles/ideal-service.svg",
         "title": "Безупречное обслуживание",
         "description": "Наш автопарк регулярно проходит техническую проверку, что обеспечивает безопасность перевозок и исключает задержки."
       }
